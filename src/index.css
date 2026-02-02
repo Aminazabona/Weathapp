@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top, #2b2e4a, #121421);
+  color: white;
+}
+.app {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.weather-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #1c1f2e, #141623);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.location {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  width: 140px;
+  margin: 10px 0;
+}
+
+.temperature {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.description {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.hourly {
+  margin-top: 25px;
+}
+
+.forecast-list {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+}
+
+.forecast-item {
+  min-width: 80px;
+  background: #1a1c2b;
+  padding: 12px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.forecast-item img {
+  width: 40px;
+}
+.bottom-nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  border-radius: 20px;
+  background: #1a1c2b;
+  box-shadow: 0 -5px 20px rgba(0,0,0,0.4);
+  font-size: 20px;
+}
