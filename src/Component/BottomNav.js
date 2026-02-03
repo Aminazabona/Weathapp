@@ -1,12 +1,12 @@
 import React from 'react'
-
+import "./BottomNav.css"
 function BottomNav() {
     return (
         <div className="bottom-nav">
-      <span>🏠</span>
-      <span>🔍</span>
-      <span>🔔</span>
-      <span>📍</span>
+      <div className="nav-item active">🏠</div>
+      <div className="nav-item">🔍</div>
+      <div className="nav-item">🔔</div>
+      <div className="nav-item">🗺️</div>
     </div>
   );
     
