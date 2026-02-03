@@ -23,7 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 src\compteur.js
 src\Footer.js
-src\Header.js
+
 src\Pages\About.js
 src\Pages\Contact.js
 src\Pages\Home.js

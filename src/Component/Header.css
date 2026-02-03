@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.menu-icon,
+.calendar-icon {
+  font-size: 22px;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-icon:hover,
+.calendar-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}

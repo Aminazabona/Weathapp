@@ -1,10 +1,12 @@
 import React from 'react'
+import Header from './Header';
 import HourlyForecast from './HourlyForecast';
 import "./WeatherCard.css"
 
 function WeatherCard() {
   return (
     <div className="weather-card">
+      <Header/>
       <p className="location">Mumbai, India</p>
 
       <div className="weather-icon">🌧️</div>
