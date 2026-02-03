@@ -1,4 +1,5 @@
 import React from 'react'
+import HourlyForecast from './HourlyForecast';
 import "./WeatherCard.css"
 function WeatherCard() {
   return (
@@ -15,8 +16,10 @@ function WeatherCard() {
         <span>💧 02%</span>
         <span>☀️ 8 hr</span>
       </div>
+
+      <HourlyForecast />
     </div>
-  )
+  );
 }
 
 export default WeatherCard

@@ -1,0 +1,17 @@
+.hourly-section {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.hourly-title {
+  font-size: 16px;
+  margin-bottom: 12px;
+  opacity: 0.9;
+}
+
+.forecast-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 5px;
+}
