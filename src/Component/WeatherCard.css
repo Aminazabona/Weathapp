@@ -8,9 +8,26 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgb(76, 76, 155);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  backdrop-filter: blur(20px); /* flou plus prononcé */
+  -webkit-backdrop-filter: blur(20px);
+
+  /* Bordure nette et légère */
+  border: 2px solid rgba(255, 255, 255, 0.25);
+
+  /* Ombre douce et profonde */
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), 0 0 15px rgba(255, 255, 255, 0.05);
+
+  /* Hover dynamique */
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
 }
+
+
+
 
 .location {
   font-size: 18px;
