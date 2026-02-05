@@ -1,11 +1,19 @@
 import React from 'react'
+import { CiSearch } from "react-icons/ci";
 import "./Header.css"
 function Header() {
     return (
         <div className="header">
-      <div className="menu-icon">☰</div>
-      <div className="calendar-icon">📅</div>
-    </div>
+            <p>Amina Weather-app</p>
+            <div className='search'>
+              <input
+            type='text'
+            placeholder='Enter a town'
+            />
+            <button><CiSearch /></button>
+            </div>
+
+        </div>
     );
 }
 

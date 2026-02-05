@@ -8,8 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
-  backdrop-filter: blur(10px);
+  background: rgb(76, 76, 155);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
 }
 
@@ -40,6 +39,15 @@
 .details {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
   font-size: 14px;
   opacity: 0.9;
+}
+.humidity svg {
+  font-size: 50px; /* change à la taille souhaitée */
+  color: white; /* optionnel : change la couleur si tu veux */
+}
+.wind svg {
+  font-size: 50px; /* change à la taille souhaitée */
+  color: white; /* optionnel : change la couleur si tu veux */
 }

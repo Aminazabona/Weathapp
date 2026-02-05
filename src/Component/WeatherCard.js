@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header';
-import HourlyForecast from './HourlyForecast';
+import { FiWind } from "react-icons/fi";
+import { WiHumidity } from "react-icons/wi";
 import "./WeatherCard.css"
 
 function WeatherCard() {
@@ -15,12 +16,16 @@ function WeatherCard() {
       <p className="description">Expect high rain today.</p>
 
       <div className="details">
-        <span>💨 11 km/h</span>
-        <span>💧 02%</span>
-        <span>☀️ 8 hr</span>
+        <div className='wind'>
+          <FiWind />
+          <p>11km/h</p>
+        </div>
+        <div className='humidity'>
+          <FiWind />
+          <p>13%</p>
+        </div>
       </div>
        
-      <HourlyForecast />
     </div>
   );
 }
